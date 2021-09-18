@@ -52,7 +52,7 @@ import moment from 'moment'
         return this.$store.getters['todos/orderdTodos']
       }
     },
-    fileters: {
+    filters: {
       dateFilter: function(date) {
         return  moment(date).format('YYYY/MM/DD HH:mm:ss')
       }
