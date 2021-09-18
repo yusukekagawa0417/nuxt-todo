@@ -24,7 +24,7 @@
 </template>
 
 <script>
-import moment from 'moment'
+  import moment from 'moment'
   export default {
     data: function() {
       return {
@@ -54,7 +54,7 @@ import moment from 'moment'
     },
     filters: {
       dateFilter: function(date) {
-        return  moment(date).format('YYYY/MM/DD HH:mm:ss')
+        return moment(date).format('YYYY/MM/DD HH:mm:ss')
       }
     }
   }
